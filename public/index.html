@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Diastic machine</title>
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.0.0/p5.min.js"></script> -->
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css" type="text/css">
+    <script src="text.js"> </script>
+  </head>
+  <body>
+    <h3>Mac Low Diastic Generator</h3>
+    <div id="description"><p>This is a text generator based on the idea by artist/poet Jackson Mac Low. <br>
+    A word ("seed") is put in the generator then it creates a phrase with each word in it
+    having a letter at the same position as in the initial word. <a href="https://en.wikipedia.org/wiki/Jackson_Mac_Low">Read more about the creator.</a> </p>
+    <span id="example">Here's a quick example with the seed word "son". Its 1st letter is "s", 2nd is "o" and 3rd is "n".
+    Depending on the text from which the words are extracted, the outcome can vary, but the result might look like this:
+    "<strong>S</strong>parrow l<strong>o</strong>st pe<strong>n</strong>nies". Each word in the phrase has one letter at the same index as the seed.</span>
+    <span id="hide">Hide the example</span>
+  </div>
+      <button type="button" name="button" id="add">Start generating</button> <a href="logs.html" id="log">View other's results</a>
+    <div id="fields" hidden=false></div>
+      <button type="button" name="button" id="generate" hidden="true">Generate text</button>
+    <p id="result" hidden="true"></p>
+    <script src="app.js" type="module"> </script>
+  </body>
+</html>

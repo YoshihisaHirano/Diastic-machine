@@ -1,0 +1,97 @@
+body {
+  font-family: 'Baloo 2', cursive;
+  text-align: center;
+  background-color: #FFFAF7;
+  padding: 0;
+  margin: 0;
+}
+
+#fields {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  justify-content: center;
+  margin: 10px auto;
+}
+
+#result {
+  border: 0.5px solid #574843;
+  padding: 10px;
+  margin: 10px auto;
+  width: 80%;
+  font-size: 1.25em;
+}
+
+.result {
+  padding: 5px;
+  width: 70%;
+  margin: 10px auto;
+  border: 0.1px dashed #B39589;
+}
+
+#add, #log, #save {
+  font-size: 1.55em;
+  margin: 15px auto;
+}
+
+#log {
+  background-color: #9BB3AF;
+  padding: 5px;
+  font-size: 1.5em;
+  font-weight: 300;
+  color: black;
+  border-radius: 2px;
+  display: inline-block;
+}
+
+#description {
+  width: 75%;
+  margin: 0 auto 5px auto;
+}
+
+button {
+  text-decoration: none;
+  border: none;
+  background-color: #9BB3AF;
+  padding: 5px;
+  font-family: 'Baloo 2', cursive;
+  margin-right: 5px;
+  margin-bottom: 2px;
+  font-size: 1em;
+  height: 2em;
+  border-radius: 2px;
+  cursor: pointer;
+}
+
+button:focus {
+  outline: none;
+}
+
+button:hover, #log:hover {
+  background-color: #BAD6D2;
+}
+
+input {
+  padding: 6px;
+  border: none;
+  border-bottom: 0.5px solid #B39589;
+  height: 2em;
+  background-color: #FFFAF7;
+  width: 8em;
+}
+
+input:focus {
+  outline: none;
+  border: 0.5px solid #B39589;
+}
+
+a, #hide {
+  color: #B39589;
+  font-weight: 500;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+a:hover, #hide:hover {
+  color: #574843;
+}
